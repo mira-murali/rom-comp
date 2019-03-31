@@ -1,3 +1,6 @@
 [submodule "sketch-rnn-datasets"]
 	path = sketch-rnn-datasets
 	url = https://github.com/hardmaru/sketch-rnn-datasets.git
+[submodule "magenta-demos"]
+	path = magenta-demos
+	url = https://github.com/tensorflow/magenta-demos.git
