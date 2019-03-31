@@ -1,0 +1,3 @@
+[submodule "sketch-rnn-datasets"]
+	path = sketch-rnn-datasets
+	url = https://github.com/hardmaru/sketch-rnn-datasets.git
