@@ -345,7 +345,9 @@ class Model(object):
                             o_pen_logits, x1_data, x2_data, pen_data)
 
     self.r_cost = tf.reduce_mean(lossfunc)
-
+    
+    self.kl_weight = tf.Variable(self.hps.kl_weight_start, trainable=False)
+    self.cost = self.r_cost + self.kl_cost * self.kl_weight
     if self.hps.is_training:
       self.lr = tf.Variable(self.hps.learning_rate, trainable=False)
       optimizer = tf.train.AdamOptimizer(self.lr)

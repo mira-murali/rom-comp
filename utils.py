@@ -253,6 +253,9 @@ class DataLoader(object):
     sample = np.copy(random.choice(self.strokes))
     return sample
 
+  def get_all_strokes(self):
+    return np.copy(self.strokes)
+
   def random_scale(self, data):
     """Augment data by stretching x and y axis randomly [1-e, 1+e]."""
     x_scale_factor = (
