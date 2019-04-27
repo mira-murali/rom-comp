@@ -1,3 +1,11 @@
+# Overview
+
+## Latent Space Arithmetic
+Simply clone this github repository and open `webpage/interp.html` in any browser of your preference to experiment with the latent space arithmetic.
+
+## Interactive doodle match
+You can play a doodle match with the AI [here](https://marisa.lu/experiments/doodlematch/)
+
 # Sketch-RNN: A Generative Model for Vector Drawings
 
 Before jumping in on any code examples, please first set up your [Magenta environment](/README.md).
